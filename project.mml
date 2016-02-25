@@ -1,0 +1,540 @@
+{
+  "bounds": [
+    -52.1754,
+    -30.6084,
+    -50.3407,
+    -29.4671
+  ],
+  "center": [
+    -51.2471,
+    -30.0227,
+    9
+  ],
+  "format": "png8",
+  "interactivity": false,
+  "minzoom": 9,
+  "maxzoom": 22,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss",
+    "labels.mss",
+    "highway.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "polygon",
+      "extent": [
+        -52.15316994828614,
+        -30.622000016465197,
+        -50.37518983446518,
+        -29.47470220915706
+      ],
+      "id": "water_areas_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-waterareas_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water_areas_1",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -52.15316994828614,
+        -30.621750068112572,
+        -50.38665032685533,
+        -29.494635045455908
+      ],
+      "id": "water_areas_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-waterareas_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water_areas_0",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -52.15316994828614,
+        -30.622000016465197,
+        -50.37518983446518,
+        -29.471265712674917
+      ],
+      "id": "water_areas",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-waterareas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water_areas"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.14683716898147,
+        -30.624343345135397,
+        -50.37790314034149,
+        -29.47113185368125
+      ],
+      "id": "water_ways",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-waterways.shp",
+        "id": "water_ways",
+        "project": "teset",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "water_ways"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -51.987680920970526,
+        -30.546442272316913,
+        -50.8123021454695,
+        -29.472384948205676
+      ],
+      "id": "landusages_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-landusages_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landusages_1",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -51.83241655824111,
+        -30.44148693062525,
+        -50.8123021454695,
+        -29.472384948205676
+      ],
+      "id": "landusages_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-landusages_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landusages_0",
+      "status": "off"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -52.15276485090575,
+        -30.637711307230727,
+        -50.78641287731841,
+        -29.471167812045845
+      ],
+      "id": "landusages",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-landusages.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "landusages"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -52.14365889999979,
+        -30.30042660000012,
+        -50.48376040000003,
+        -29.471513500000068
+      ],
+      "id": "amenities",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-amenities.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "amenities"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15753943441049,
+        -30.63642434981749,
+        -50.385774501792724,
+        -29.471034875061523
+      ],
+      "id": "minorroads",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-minorroads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "minorroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15539970216837,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.47150183088732
+      ],
+      "id": "roads_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-roads_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads_1",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15539970216837,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.47150183088732
+      ],
+      "id": "roads_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-roads_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads_0",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15539970216837,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.47150183088732
+      ],
+      "id": "mainroads_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-mainroads_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mainroads_1",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15539970216837,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.47150183088732
+      ],
+      "id": "mainroads_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-mainroads_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mainroads_0",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15753943441049,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.471034875061523
+      ],
+      "id": "roads",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-roads.shp",
+        "id": "roads",
+        "project": "teset",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "roads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15539970216837,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.47150183088732
+      ],
+      "id": "mainroads",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-mainroads.shp",
+        "id": "mainroads",
+        "project": "teset",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mainroads"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.956529242550026,
+        -30.082902072063618,
+        -50.4009495183932,
+        -29.473986059349897
+      ],
+      "id": "motorways_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-motorways_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "motorways_1",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.956529242550026,
+        -30.082902072063618,
+        -50.4009495183932,
+        -29.47403274655057
+      ],
+      "id": "motorways_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-motorways_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "motorways_0",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.956529242550026,
+        -30.082902072063618,
+        -50.4009495183932,
+        -29.473827222284733
+      ],
+      "id": "motorways",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-motorways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "motorways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.97156428136751,
+        -30.027645045944503,
+        -51.134929058511865,
+        -29.47246700703776
+      ],
+      "id": "railways_1",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-railways_gen1.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railways_1",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.97156428136751,
+        -30.027645045944503,
+        -51.134929058511865,
+        -29.472799936231816
+      ],
+      "id": "railways_0",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-railways_gen0.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railways_0",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.97156428136751,
+        -30.027645045944503,
+        -51.134929058511865,
+        -29.47246700703776
+      ],
+      "id": "railways",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-railways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "railways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -51.493264052539864,
+        -30.226832844416982,
+        -50.420040560156366,
+        -29.717625940198587
+      ],
+      "id": "aeroways",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-aeroways.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "aeroways",
+      "status": "off"
+    },
+    {
+      "geometry": "linestring",
+      "extent": [
+        -52.15753943441049,
+        -30.63762304579034,
+        -50.38129102178521,
+        -29.471034875061523
+      ],
+      "id": "road-label",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-roads.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "road-label"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -51.98478882909953,
+        -30.637390028882095,
+        -50.44859317804081,
+        -29.47158472790971
+      ],
+      "id": "buildings",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-buildings.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "buildings"
+    },
+    {
+      "geometry": "polygon",
+      "extent": [
+        -51.45584036361271,
+        -30.191579481678534,
+        -51.14407212231257,
+        -29.940852869334655
+      ],
+      "id": "transport_areas",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-transport_areas.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "transport_areas"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -51.968224999999954,
+        -30.614470200000042,
+        -50.841681399999985,
+        -29.47106930000002
+      ],
+      "id": "transport_points",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-transport_points.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "transport_points"
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -52.15823799999991,
+        -30.623446200000192,
+        -50.37275299999992,
+        -29.47116770000012
+      ],
+      "id": "places",
+      "class": "",
+      "Datasource": {
+        "file": ".\\geofiles\\1porto-alegre.imposm-shapefiles\\porto-alegre.osm-places.shp"
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "places"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "name": "map",
+  "description": "",
+  "attribution": ""
+}

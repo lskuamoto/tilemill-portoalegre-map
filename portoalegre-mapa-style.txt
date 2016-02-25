@@ -1,0 +1,214 @@
+Map {
+  background-color: #e9e3e3;
+}
+
+#countries {
+  ::outline {
+    line-color: #85c5d3;
+    line-width: 2;
+    line-join: round;
+  }
+  polygon-fill: #fff;
+}
+
+#portoalegre_roads {
+  line-width:1;
+  line-color:#000000;
+}
+
+
+#portoalegre_buildings {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+}
+
+
+#portoalegre_admin {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+}
+
+
+#portoalegre_mainroads { 
+  //line-width:1;
+  //line-color:#168;
+   line-width:2;
+   line-color:#000000;
+}
+
+
+#portoalegre_aeroways {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_amenities {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+#portoalegre_buildings {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#d8d0c9;
+}
+
+
+#portoalegre_mainroads_0 {
+  //line-width:1;
+  //line-color:#168;
+  line-width:2;
+  line-color:#000000;
+}
+
+
+#portoalegre_mainroads_1 {
+  //line-width:1;
+  //line-color:#168;
+  line-width:2;
+  line-color:#000000;
+}
+
+
+#portoalegre_minorroads {
+  line-width:1;
+  line-color:#000000;
+}
+
+
+#portoalegre_motorways {
+  //line-width:1;
+  //line-color:#168;
+  line-width:3;
+  line-color:#000000;
+}
+
+
+#portoalegre_motorways_0 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_motorways_1 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_places {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+#portoalegre_railways {
+  line-width:1;
+  line-color:#168;
+}
+
+#portoalegre_railways [zoom>15] {
+  ::line, ::hatch { line-color: #fdefd7; }
+  ::line { line-width:1; }
+  ::hatch {
+    line-width: 4;
+    line-dasharray: 1, 24;
+  }
+}
+
+#portoalegre_railways_0 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_railways_1 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_roads {
+  line-width:1;
+  line-color:#e9e3e3;
+}
+
+#portoalegre_roads[zoom>14]{
+  line-width:3;
+  line-color:#b6b6b6;
+  text-name:[name];
+  text-face-name:"Arial Regular";
+  text-fill:#838383;
+  text-size: 14;
+    
+  text-placement: line;
+  text-min-path-length:100;
+  text-avoid-edges:true;
+  text-min-distance:50;
+  text-dy: 6;
+  text-max-char-angle-delta: 15;
+}
+
+#portoalegre_roads_0 {
+  line-width:1;
+  line-color:#168;
+}
+
+
+#portoalegre_transport_areas {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#ae8;
+}
+
+
+#portoalegre_transport_points {
+  marker-width:6;
+  marker-fill:#f45;
+  marker-line-color:#813;
+  marker-allow-overlap:true;
+}
+
+
+#portoalegre_water_areas {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#85c5d3;
+}
+
+
+#portoalegre_water_areas_0 {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#85c5d3;
+}
+
+
+#portoalegre_water_areas_1 {
+  line-color:#594;
+  line-width:0.5;
+  polygon-opacity:1;
+  polygon-fill:#85c5d3;
+}
+
+
+#portoalegre_water_ways {
+  //line-width:1;
+  //line-color:#168;
+  line-width:0;
+  line-color:#89aceb;
+}
